@@ -49,6 +49,12 @@ body{
             justify-content: space-around;
 
         }
+        li button {
+            border-radius: 10px;
+            background-color: #05954f;
+            color: #ffff;
+
+        }
        
 
         .completed {
@@ -63,7 +69,6 @@ body{
     <div class="row-md-12 container text-center box p-5">
         <div class="col">
             <h1>Task Tracker</h1>
-        
         <div>
             <input type="text" id="task-input" class="textarea"  placeholder="Add a new task">
             <button id="add-task" class="btn btn-success">Add Task</button>
@@ -72,7 +77,7 @@ body{
         <div class="col-md-12 p-2">
             <ul id="task-list">
                 <!-- Tasks will be added here -->
-                <li><span>Going for Shopping</span><input type="checkbox"><button >Delete</button></li>
+                <li class="btn btn-success"><span>Going for Shopping</span><input type="checkbox"><button >Delete</button></li>
             </ul>
         </div>
         
